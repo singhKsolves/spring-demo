@@ -9,7 +9,7 @@ public class DemoController {
 
     @GetMapping("/")
     public String welcome(){
-        return "Hello World!";
+        return "Welcome to OpenShift!";
     }
 
 }
